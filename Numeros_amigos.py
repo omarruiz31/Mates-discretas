@@ -1,0 +1,3 @@
+#Numero amigos
+
+print("JAJA")
