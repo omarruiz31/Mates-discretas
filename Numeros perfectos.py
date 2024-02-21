@@ -1,11 +1,15 @@
 #Identificador de numeros perfectos
 
-#Factorizador
-def factores(n):
-    factores = []
-    for i in range(1, n + 1):
-        if n % i == 0:
-            factores.append(i)
-    return factores
+def es_numero_perfecto(numero):
+    suma_divisores = 0
+    for i in range(1, numero):
+        if numero % i == 0:
+            suma_divisores += i
+    return suma_divisores == numero
 
-numero = int(input("Ingresa un número para encontrar sus factores: "))
+numero = int(input("Ingresa un número:"))
+
+if es_numero_perfecto(numero):
+    print(numero, "Es un número perfecto.")
+else:
+    print(numero, "No es un número perfecto.")
