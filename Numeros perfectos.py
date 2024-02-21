@@ -9,4 +9,3 @@ def factores(n):
     return factores
 
 numero = int(input("Ingresa un número para encontrar sus factores: "))
-print(factores(numero)[1])
