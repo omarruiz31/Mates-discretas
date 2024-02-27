@@ -11,11 +11,11 @@ while True:
     numB=int(input("Adivina el numero!!:"))
     if numA==numB:
         print("ADIVINASTE!!")
-        print(f"Fueron necesarios{eventos}intentos")
+        print(f"Fueron necesarios {eventos} intentos")
         break
     elif numB>numA:
         print("Tu numero es mayor")
-        eventos=eventos+1
+        eventos+=1
     elif numB<numA:
         print("Tu numero es menor")
         eventos+=1
