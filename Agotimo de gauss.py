@@ -1,2 +1,2 @@
-n=int(input("INGRESA UN NUMERO:"))
-print(n*(n+1)/2)
+f=int(input("Ingresa un numero:"))
+print(f*(f+1)/2)
